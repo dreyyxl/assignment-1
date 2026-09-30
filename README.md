@@ -6,7 +6,7 @@ Toolkit to collect system info, check disk usage, and network connectivity.
 ## Scripts
 - `system-info.sh`: Displays hostname, user, date/time, OS, kernel, uptime, CPU, memory, pwd
 - `disk-check.sh <threshold> [path]`: Checks disk usage vs threshold (1-100), default path /
-- `network-check.sh <host> [port]`: Resolves host, pings, shows interfaces, optional TCP port check
+- `network-check.sh <hostname-or-ip> [port]`: Resolves host, pings, shows interfaces, optional TCP port check
 
 ## Usage
 ```bash
